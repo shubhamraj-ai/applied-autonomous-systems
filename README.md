@@ -1,73 +1,87 @@
 # Applied Autonomous Systems
 
-A sanitized technical showcase of an independently developed private engineering project spanning autonomous-systems software, deterministic decision logic, bounded hardware validation, configurable sensing topology, and human-governed field-design work.
+A public-safe engineering showcase of an independently developed robotics and autonomous-systems project that combines deterministic software, configurable sensing topology, bounded embedded-hardware validation, and human-governed deployment planning.
 
-> **Status:** Active engineering project. Software simulation and bounded bench validation are established; real-world deployment remains intentionally gated.
+> **Current status:** active implementation + research project. Validated software simulation and bounded bench-hardware work are established; field deployment and real aerial operation remain intentionally gated.
 
-## What this project demonstrates
+## At a glance
 
-- Deterministic Python-based modelling and rule-engine development
-- Scenario-driven validation and regression testing
-- Configurable sensing / topology modelling
-- Human-in-the-loop review and evidence-aware decision workflows
-- Bounded embedded-hardware experimentation
-- Safety-oriented engineering gates before real-world deployment
-- Progressive movement from simulation to bench validation and field-design preparation
+| Area | Current evidence |
+| --- | --- |
+| Software | Deterministic Python modelling, rule-engine logic, review/audit workflows |
+| Validation | Scenario-driven testing and a latest evidenced regression baseline of 625 passing tests |
+| Architecture | Configurable sensing/topology models, provenance-aware data handling, human-review boundaries |
+| Hardware | Bounded Arduino-based bench validation and serial integration |
+| Field engineering | Controlled site-readiness and camera field-design work |
+| Aerial robotics | Passive aerial-verification direction under future gated simulation/implementation work |
 
-## Current engineering maturity
+## What I am building
 
-The private project has progressed beyond concept-only work. Its current evidence base includes validated software simulation, architecture and review models, configurable topology software, bounded Arduino bench validation, and controlled real-site field-design work. The latest fully evidenced regression baseline contains more than 600 passing automated tests.
+The private project explores a layered security-verification architecture in which sensor observations are evaluated through deterministic, explainable logic before any human-reviewed decision is made. The system is deliberately designed so that software output is **evidence for review, not physical authorization**.
 
-The project is **not** presented here as a deployed autonomous system. No public claim is made that a live surveillance installation, resident-identification system, or autonomous aircraft operation is currently active.
+The engineering path has progressed through:
+
+1. deterministic simulation and scenario modelling;
+2. architecture and review/audit design;
+3. expanded software simulation;
+4. bounded embedded-hardware validation;
+5. configurable topology and sensing models;
+6. controlled field-design/readiness work;
+7. later passive aerial-verification phases only after separate readiness gates.
+
+## What this demonstrates
+
+- Python-based deterministic systems engineering
+- autonomous-systems architecture and staged validation
+- configurable camera/sensor topology modelling
+- human-in-the-loop decision design
+- evidence provenance, auditability, and explicit uncertainty handling
+- embedded-device / serial integration
+- regression testing and controlled engineering checkpoints
+- safety-oriented progression from software to hardware to field work
+- early aerial-robotics system design without overstating current flight capability
 
 ## Technical areas
 
-- Python
-- Deterministic rule systems
-- Autonomous-systems architecture
-- Sensor / camera topology modelling
-- Embedded-device serial integration
-- Automated testing and regression validation
-- Evidence provenance and auditability
-- Human review and fail-safe decision boundaries
-- Future passive aerial-verification research and implementation planning
+`Python` · `Automated Testing` · `Embedded Systems` · `Serial Integration` · `Autonomous Systems` · `Sensor Topology` · `Human-in-the-Loop Design` · `Evidence/Audit Models` · `Safety & Validation`
 
-## Engineering approach
+## Design philosophy
 
-The project follows a staged development model:
+A few principles shape the project:
 
-1. deterministic simulation
-2. architecture definition
-3. enhanced software simulation
-4. bounded bench hardware validation
-5. field-design and site-readiness work
-6. later controlled pilot phases only after explicit readiness gates
+- unknown and insufficient-evidence states are valid outcomes;
+- deterministic outputs do not automatically trigger physical action;
+- human review remains mandatory at consequential boundaries;
+- simulation and bench evidence precede real deployment;
+- configuration and provenance are preferred over hidden hard-coded assumptions;
+- safety, privacy, and rollback/readiness gates are part of the engineering design.
 
-The design intentionally separates software recommendations from physical authorization. Unknown, insufficient-evidence, and abstention states are treated as valid outcomes rather than forcing a decision.
+## Public-safe example
+
+See [`examples/synthetic-scenario.md`](examples/synthetic-scenario.md) for a fictional scenario showing the style of input, deterministic assessment, review state, and conservative outcome used in the project. It contains no real property, camera, household, or deployment data.
 
 ## Repository scope
 
-This repository is a **public-facing technical showcase**, not the private development repository. It contains only material selected for professional demonstration.
+This is **not** the private development repository. It is a deliberately sanitized technical showcase for professional review.
 
 Intentionally excluded:
 
-- project-specific private names and locations
-- property layouts, dimensions, camera positions, or security weak points
-- private photographs or household data
-- exact operational deployment configuration
-- credentials, internal URLs, or environment details
-- proprietary scoring thresholds and sensitive implementation logic
+- the private project name and exact deployment location;
+- real property layouts, dimensions, camera positions, or security weak points;
+- private photographs, household data, and field evidence;
+- exact scoring thresholds and proprietary implementation details;
+- credentials, internal URLs, environment values, or live operational configuration.
 
-## Why this public version exists
+## Current limitations
 
-The goal is to demonstrate systems thinking, engineering discipline, validation practice, and autonomous-systems development without exposing private operational or location-specific information.
+This repository does **not** claim that a live surveillance installation, resident-identification system, or autonomous aircraft operation is currently active. The project remains progressive and evidence-gated, with real-world capability introduced only after explicit validation and approval stages.
 
-## Next additions
+## Additional notes
 
-Planned public-safe additions include:
+- [`docs/architecture-overview.md`](docs/architecture-overview.md) — high-level system structure
+- [`docs/validation-and-public-disclosure.md`](docs/validation-and-public-disclosure.md) — validation and disclosure boundaries
+- [`docs/project-maturity.md`](docs/project-maturity.md) — what is implemented now versus planned later
 
-- high-level architecture notes
-- validation methodology
-- synthetic scenario examples
-- selected non-sensitive diagrams
-- carefully reviewed code excerpts where they add genuine technical value
+---
+
+**Why this repository exists:** to show practical robotics/autonomous-systems engineering, implementation discipline, and validation thinking without exposing private operational details.

@@ -72,6 +72,12 @@ Intentionally excluded:
 - exact scoring thresholds and proprietary implementation details;
 - credentials, internal URLs, environment values, or live operational configuration.
 
+## Private Development Repository
+
+This public repository is a selectively disclosed portfolio representation of a broader private development project. The private repository contains the complete software, bench-validation, field-design, and research-development history, along with implementation details, commits, validation evidence, and project documentation that are intentionally excluded here for IP, privacy, security, or operational reasons.
+
+**Additional private implementation evidence may be shared selectively during a relevant technical interview or professional review, subject to appropriate confidentiality and disclosure considerations.**
+
 ## Current limitations
 
 This repository does **not** claim that a live surveillance installation, resident-identification system, or autonomous aircraft operation is currently active. The project remains progressive and evidence-gated, with real-world capability introduced only after explicit validation and approval stages.

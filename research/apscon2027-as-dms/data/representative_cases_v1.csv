@@ -1,0 +1,8 @@
+scenario_id,public_semantic_label,alert_score,alert_band,drone_mission_score,drone_decision
+S13,late shutter-lock activity,78,urgent_alert,70,recommended
+S44,staircase activity after prior outdoor event,78,urgent_alert,0,no_drone
+S70,unsafe child near hazard,78,urgent_alert,0,no_drone
+S72,scheduled randomized night patrol,0,suppress,78,high_priority
+S74,scheduled house-empty daytime patrol,0,suppress,82,high_priority
+S75,scheduled house-empty nighttime patrol,0,suppress,86,high_priority
+S78,authorized manual patrol,0,suppress,70,recommended

@@ -87,6 +87,7 @@ This repository does **not** claim that a live surveillance installation, reside
 - [`docs/architecture-overview.md`](docs/architecture-overview.md) — high-level system structure
 - [`docs/validation-and-public-disclosure.md`](docs/validation-and-public-disclosure.md) — validation and disclosure boundaries
 - [`docs/project-maturity.md`](docs/project-maturity.md) — what is implemented now versus planned later
+- [`research/apscon2027-as-dms/`](research/apscon2027-as-dms/) — public-safe reproducibility artifact for the APSCON 2027 AS/DMS paper analysis
 
 ---
 

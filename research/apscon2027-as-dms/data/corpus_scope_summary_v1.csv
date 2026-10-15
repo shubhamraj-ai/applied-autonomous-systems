@@ -1,0 +1,9 @@
+public_scenario_class,representative_ids,public_description
+routine_activity,"S01;S03;S41","routine or expected activity examples"
+suspicious_activity,"S13;S37;S47","suspicious or verification-relevant activity examples"
+safety_events,"S66;S70;S73","safety-related examples including explicit no-drone outcomes"
+camera_health_conditions,"S45;S46;S47;S48;S49;S50;S51;S52;S56;S68","camera-health degradation or availability conditions"
+scheduled_patrols,"S72;S73;S74;S75;S76;S80","scheduled or follow-up sensing missions"
+house_empty_operation,"S40;S53;S54;S55;S56;S74;S75;S76","house-empty operating-mode examples"
+manual_requests,"S77;S78;S79","manual mission requests with authorization/geofence variation"
+explicit_no_drone,"S02;S44;S70;S73;S77;S79","representative cases where mobile aerial sensing remains disallowed"

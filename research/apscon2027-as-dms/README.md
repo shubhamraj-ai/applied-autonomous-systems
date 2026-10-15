@@ -31,12 +31,31 @@ included here.
 - `analysis_nonredundancy.py` — deterministic script reproducing the paper's
   primary correlations, conditional-entropy values, same-AS conflict groups,
   and optimistic AS-only / alert-band-only representational upper bounds.
+- `results_snapshot_v1.txt` — captured deterministic output from the public
+  analysis script for manual comparison.
+- `PAPER_TRACEABILITY.md` — maps project-derived manuscript claims to the public
+  files and commands that support them.
+- `data/constraint_examples_v1.csv` — sanitized mission-eligibility/safety
+  examples used to audit the paper's semantic argument.
+- `data/corpus_scope_summary_v1.csv` — public-safe summary of the scenario
+  classes described in the manuscript.
 
-## Run
+## Manual verification
+
+1. Inspect `data/as_dms_paper_projection_v1.csv` for the 80 paper-analysis rows.
+2. Run the deterministic analysis:
 
 ```bash
 python analysis_nonredundancy.py
 ```
+
+3. Compare the console output with `results_snapshot_v1.txt`.
+4. Use `data/representative_cases_v1.csv` for the manuscript's representative
+   same-severity / zero-alert cases.
+5. Use `data/constraint_examples_v1.csv` and
+   `data/corpus_scope_summary_v1.csv` for the public-safe semantic and corpus
+   scope checks.
+6. See `PAPER_TRACEABILITY.md` for claim-by-claim mapping.
 
 Expected headline results:
 

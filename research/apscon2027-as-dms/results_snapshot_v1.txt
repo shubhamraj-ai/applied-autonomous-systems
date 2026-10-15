@@ -1,0 +1,16 @@
+N = 80
+Pearson r(AS,DMS) = 0.7201635750
+Spearman rho(AS,DMS) = 0.7111647471
+H(DroneDecision | exact AS) = 0.3000000000 bits
+H(DroneDecision | alert band) = 0.9664709276 bits
+Best exact-AS-only mapping = 70/80 = 87.50%
+Best alert-band-only mapping = 55/80 = 68.75%
+Exact AS values with conflicting decisions = 6
+Scenarios in conflicting-AS groups = 21/80
+Conflicting exact-AS groups:
+  AS=0: {'no_drone': 4, 'high_priority': 3, 'recommended': 1}
+  AS=48: {'watch_only': 1, 'no_drone': 1}
+  AS=55: {'watch_only': 1, 'no_drone': 1}
+  AS=58: {'watch_only': 2, 'no_drone': 1}
+  AS=78: {'recommended': 2, 'no_drone': 2}
+  AS=94: {'highest_priority': 1, 'high_priority': 1}

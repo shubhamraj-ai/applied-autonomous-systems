@@ -1,0 +1,11 @@
+scenario_id,public_constraint_type,public_semantic_label,alert_score,drone_mission_score,drone_decision
+S02,pet_only,pet-only observation,24,0,no_drone
+S44,staircase_context,staircase activity after prior outdoor event,78,0,no_drone
+S70,safety_event,unsafe child near hazard,78,0,no_drone
+S73,safety_precheck_failed,scheduled patrol blocked by safety precheck,0,0,no_drone
+S74,house_empty_scheduled_sensing,scheduled house-empty patrol,0,82,high_priority
+S77,manual_request_not_authorized,manual patrol request without authorization,0,0,no_drone
+S78,manual_request_authorized,authorized manual patrol,0,70,recommended
+S79,geofence_unavailable,authorized manual patrol blocked by unavailable geofence,0,0,no_drone
+S45,camera_health_degraded,camera-health degradation in daytime context,45,0,no_drone
+S47,camera_health_degraded,camera-health degradation in nighttime context,78,72,recommended

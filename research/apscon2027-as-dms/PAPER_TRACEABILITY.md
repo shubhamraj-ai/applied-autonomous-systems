@@ -14,7 +14,7 @@ peer-reviewed references cited in the manuscript.
 | Frozen paper projection contains 80 scenarios | `data/as_dms_paper_projection_v1.csv` |
 | Pearson correlation between AS and DMS is approximately 0.720 | Run `analysis_nonredundancy.py` |
 | Spearman rank correlation is approximately 0.711 | Run `analysis_nonredundancy.py` |
-| Conditional entropy H(DroneDecision | exact AS) is 0.300 bits | Run `analysis_nonredundancy.py` |
+| Conditional entropy H(DroneDecision given exact AS) is 0.300 bits | Run `analysis_nonredundancy.py` |
 | Six exact AS values map to multiple drone-decision categories | Run `analysis_nonredundancy.py` |
 | The conflicting exact-AS groups contain 21 of 80 scenarios | Run `analysis_nonredundancy.py` |
 | Optimistic exact-AS-only upper bound is 70/80 = 87.5% | Run `analysis_nonredundancy.py` |

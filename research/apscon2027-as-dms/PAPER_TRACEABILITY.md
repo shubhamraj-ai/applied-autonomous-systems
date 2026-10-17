@@ -1,6 +1,6 @@
 # APSCON 2027 paper claim traceability
 
-This file maps the principal **project-derived claims** in the paper candidate
+This file maps the principal **project-derived claims** in the paper
 **"Decoupling Alert Severity from Passive Aerial Verification Utility in Hybrid Security Sensing"**
 to public, paper-safe evidence in this repository.
 

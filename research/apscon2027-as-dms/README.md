@@ -1,7 +1,6 @@
 # APSCON 2027 paper reproducibility artifact
 
-This folder provides a **public-safe reproducibility artifact** for the paper
-candidate:
+This folder provides a **public-safe reproducibility artifact** for the paper:
 
 > **Decoupling Alert Severity from Passive Aerial Verification Utility in Hybrid Security Sensing**
 

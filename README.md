@@ -80,7 +80,7 @@ Python · Automated Testing · Embedded Systems · Serial Integration · Autonom
 
 ## Research: APSCON 2027 AS/DMS paper
 
-This repository also contains the public-safe reproducibility artifact for the paper candidate:
+This repository also contains the public-safe reproducibility artifact for the submitted APSCON 2027 paper:
 
 > **Decoupling Alert Severity from Passive Aerial Verification Utility in Hybrid Security Sensing**
 
@@ -94,9 +94,9 @@ See:
 
 [research/apscon2027-as-dms/](research/apscon2027-as-dms/)
 
-The paper-citation artifact is frozen at immutable commit:
+The submitted paper reproducibility state is frozen at immutable commit:
 
-0aeae39b70c4be1bf474a1cacb9df330e8199e3b
+dfd4ac8350ee49cce1c9300dbf526c6829c3e9a4
 
 That folder includes:
 

@@ -12,6 +12,7 @@ Validation is used to answer bounded questions such as:
 - does a physical bench interface conform to the intended software contract?
 
 A passing test suite is not treated as evidence that a real deployment is safe or authorized.
+A passive field installation now exists as an engineering baseline. Its successful installation and basic functional checks are evidence only of field integration at that boundary; they are **not** presented as AI detection accuracy, security effectiveness, autonomous-decision performance, or operational-safety validation.
 
 ## Public disclosure boundary
 

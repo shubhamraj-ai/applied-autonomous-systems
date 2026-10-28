@@ -2,7 +2,7 @@
 
 A public-safe engineering and research showcase of an independently developed robotics and autonomous-systems project combining deterministic decision logic, configurable sensing topology, bounded hardware validation, human-governed deployment planning, and future passive aerial verification.
 
-> **Current status (15 Oct 2026):** the software/simulation baseline and bounded Arduino bench work are validated. The project is in **Phase-0H5 property-readiness / Phase-1 CCTV procurement**, with the first three-camera package now at the near-final dealer/family purchase stage. Installation has **not yet been confirmed as started or commissioned**. The working target is to complete procurement and setup within roughly the next 10 days, subject to dealer availability and on-site work. No real drone operation is active.
+> **Current status (28 Oct 2026):** the validated software/simulation baseline and bounded Arduino bench work remain intact. The project has now crossed a further field-engineering milestone: a **small multi-camera passive CCTV baseline has been physically installed and functionally tested** with local recording, wired network transport, and operator viewing. The active work is commissioning verification, cybersecurity hardening, access governance, maintenance, and controlled observation. No live AI-CCTV inference pipeline, biometric identification, autonomous physical response, or real drone operation is active.
 
 ## At a glance
 
@@ -12,9 +12,9 @@ A public-safe engineering and research showcase of an independently developed ro
 | Validation | Latest evidenced regression baseline: **625 passed, 3 skipped** |
 | Architecture | Configurable sensing/topology models, provenance-aware handling, human-review boundaries |
 | Bench hardware | Bounded Arduino UNO R4 WiFi validation and serial integration completed |
-| Field engineering | Site-specific camera field design and installation-readiness planning completed to the current gate |
-| Phase-1 deployment | **C1 + C2 + C4** procurement in progress; no camera commissioned yet |
-| Passive CCTV pilot | Not started until installation/commissioning evidence exists |
+| Field engineering | Field design progressed through procurement, installation, and functional verification of a passive sensing baseline |
+| Phase-1 deployment | Passive multi-camera field baseline installed and functionally tested |
+| Passive CCTV pilot | Physical baseline active; cybersecurity/commissioning hardening and controlled observation remain in progress |
 | Aerial robotics | Future passive observation/verification direction only; no real UAV connected or operated |
 | Research publication | Public APSCON 2027 AS/DMS reproducibility artifact available in this repository |
 
@@ -35,32 +35,22 @@ The engineering progression is deliberately staged:
 
 The system is designed so that software output is **evidence for review, not physical authorization**.
 
-## Current Phase-1 hardware direction
+## Current field-engineering milestone
 
-The present Phase-1 deployment is a three-camera CCTV package. These are the current procurement targets being discussed with the dealer/family:
+The private project has moved beyond procurement planning into a **physically installed passive sensing baseline**. Publicly safe details are intentionally limited to the engineering milestone rather than the private deployment configuration.
 
-| Component | Current model / requirement | Current status |
-| --- | --- | --- |
-| C1 | CP-UNC-DA41L3C-D-Q | Exact camera target |
-| C2 | CP-UNC-TA41L3C-Q | Exact camera target |
-| C4 | CP-UNC-TC41ZL6C-VMD-LQ | Exact LQ variant target |
-| NVR | CP-UNR-4K4082-V4 | Revised currently available NVR target |
-| PoE switch | CP-DNW-HPU8G2-96-V3 | Preferred external PoE switch |
-| HDD | Seagate SkyHawk 2 TB ST2000VX017 | Preferred surveillance HDD |
-| Outdoor Cat6 | CP Plus CP-EUT-6TGD23-100 | Reference model; dealer-equivalent outdoor cable may be accepted after review |
-| Future edge computer | NVIDIA Jetson Orin Nano Super | Plan/budget only; **not a current purchase item** |
+The current field layer includes:
 
-The public repository records the procurement state without exposing private property layout, camera coordinates, blind spots, household information, credentials, or operational configuration.
+- multiple fixed IP cameras;
+- a network video recorder;
+- external PoE switching and wired Ethernet transport;
+- dedicated surveillance storage;
+- local operator display and approved remote-viewing capability;
+- inverter-backed power continuity for the core network/recording equipment.
 
-### Deployment boundary
+The installation has been functionally checked, but this does **not** mean the autonomous research stack is deployed. The current work is to harden the network boundary, verify recording/maintenance behavior, define least-privilege access, and observe the field baseline before any later sensing/perception integration.
 
-Until real installation and commissioning evidence exists:
-
-- no camera is treated as commissioned;
-- no live household CCTV pipeline is claimed;
-- no production surveillance network/storage stack is claimed;
-- no resident-verification system is claimed;
-- no real drone is claimed to be connected, dispatched, or flown.
+The public repository intentionally omits exact hardware SKUs, property layout, camera identifiers/positions, IP addresses, credentials, storage identifiers, security-service configuration, cost, and private field evidence.
 
 ## What this project demonstrates
 
@@ -152,11 +142,13 @@ The complete private repository contains the full implementation, bench-validati
 
 ## Current limitations
 
-This repository does **not** claim that a live surveillance installation, resident-identification system, autonomous aircraft operation, or production security system is currently active.
+This repository does **not** claim a production autonomous security system, live biometric identification, autonomous threat determination, autonomous physical response, or active drone flight.
+
+A passive fixed-camera field baseline now exists, but the autonomous research pipeline remains deliberately separated from that physical layer. Current field work is bounded to commissioning verification, cybersecurity hardening, access governance, maintenance, and controlled observation.
 
 The project remains progressive and evidence-gated:
 
-**validated simulation + bounded bench hardware + mature field design + active Phase-1 procurement → installation/commissioning evidence → passive CCTV pilot → later separately authorized aerial-verification work.**
+**validated simulation + bounded bench hardware + passive field-sensing baseline -> security/commissioning hardening -> later separately authorized perception/edge experiments -> later separately authorized aerial-verification work.**
 
 ## Additional notes
 

@@ -40,7 +40,12 @@ The private system includes a configuration-driven representation of sensing zon
 
 ## Hardware boundary
 
-A bounded embedded-hardware path has been validated using an Arduino-class device and explicit serial communication. This demonstrates physical-interface conformance without implying that a production physical system is deployed.
+Two bounded hardware layers have now been evidenced:
+
+- an Arduino-class bench path used for explicit serial-interface conformance work; and
+- a passive fixed-camera field-sensing baseline used for installation, recording, network, maintenance, and later observation work.
+
+The passive field layer is **not connected to an autonomous physical-response path** and does not imply that live AI inference, biometric identification, or aerial control is deployed. Public documentation intentionally abstracts the exact equipment, topology, site geometry, network configuration, and field evidence.
 
 ## Future autonomous-systems direction
 
